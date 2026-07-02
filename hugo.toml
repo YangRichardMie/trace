@@ -1,0 +1,36 @@
+baseURL = "https://yangrichardmie.github.io/trace/"
+languageCode = "zh-cn"
+title = "Trace · 落笔留痕"
+theme = "PaperMod"
+
+[params]
+  description = "杨嘉宇的博客 · 落笔留痕，思绪有迹"
+  author = "杨嘉宇"
+  social = false
+
+[params.homeInfoParams]
+  Title = "👋 你好，我是杨嘉宇"
+  Content = "落笔留痕，思绪有迹。这里记录我的思考、学习和生活。"
+
+[menu]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
